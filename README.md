@@ -19,7 +19,7 @@ This is landing page that helps the user to search for their github account by t
  https://suad7.github.io/github/.
 ### BEHAVIOR DRIVEN DEVELOPMENT (SPECIFICATIONS)
 1.Input:
-- write github user name (your user name on github)
+- write github user name (your user name on github).
 
 2.Output:
 - your repositories on github will show down.
