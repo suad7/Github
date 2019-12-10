@@ -18,13 +18,15 @@ This is landing page that helps the user to search for their github account by t
 ### DEPLOYING (LIVE LINK)
  https://suad7.github.io/github/.
 ### BEHAVIOR DRIVEN DEVELOPMENT (SPECIFICATIONS)
-1.Input
+1.Input:
 - write github user name (your user name on github)
 
-2.Output
-- 
-- 
-- 
+2.Output:
+- your repositories on github will show down.
+
+3. How to use:
+- click on any of the repositories.
+- it will take you to your github account.
 
 ### CONTACT 
 sm.ha21@hotmail.com
