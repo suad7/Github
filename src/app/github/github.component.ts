@@ -11,8 +11,6 @@ export class GithubComponent implements OnInit {
   
   githubService: any;
   username: any;
-  
-
   constructor(private_githubService:GithubService) {
     console.log('Github Component Init...');
 
