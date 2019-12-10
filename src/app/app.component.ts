@@ -14,8 +14,6 @@ export class AppComponent {
   public email: string;
   public created_at: Date;
   repos: Object;
-
-
   constructor(private _githubService: GithubService) {
     console.log("Github Component Init...");
   }
