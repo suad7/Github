@@ -15,7 +15,7 @@ export class AppComponent {
   public created_at: Date;
   repos: Object;
   constructor(private _githubService: GithubService) {
-   
+
   }
 
   search() {
