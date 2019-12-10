@@ -5,6 +5,15 @@ import { GithubService } from "./github.service.service";
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"]
 })
+export class AppComponent {
+  public username: string;
+  public Repositories: string;
+  public followers: string;
+  public following: string;
+  public avatar_url: string;
+  public email: string;
+  public created_at: Date;
+  repos: Object;
 
 
   constructor(private _githubService: GithubService) {
