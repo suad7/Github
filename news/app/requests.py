@@ -24,9 +24,9 @@ def get_sources(category):
         '''
         get_sources_url = base_url.format(category,api_key)
 
-        # with urllib.request.urlopen(get_sources_url) as url:
+       
         get_sources_data = requests.get(get_sources_url)
-        # get_sources_response = json.loads(get_sources_data)
+       
         get_sources_response = get_sources_data.json()
         sources_results = None
         
@@ -67,10 +67,9 @@ def get_articles(id):
         '''
         get_articles_url = articles_url.format(id,api_key)
         
-        # with urllib.request.urlopen(get_articles_url) as url:
         get_articles_data= requests.get(get_articles_url)
         get_articles_response =  get_articles_data.json()
-		        # articles_results = json.loads(url.read())  
+		         
         articles_object = None
                         
         if get_articles_response['articles']:
